@@ -1,0 +1,11 @@
+<view class="container">
+  <skeleton loading="{{loading}}" width="100vw" height="100vh">
+    <skeleton-item placeholder-class="skeleton-text" content-class="skeleton-text-slot">{{ text }}</skeleton-item>
+    <skeleton-item placeholder-class="skeleton-block">
+      <view class="skeleton-block-slot">{{ longText }}</view>
+    </skeleton-item>
+    <skeleton-item placeholder-class="skeleton-image">
+      <image src="https://i.loli.net/2019/10/08/P5Zq14MIUj6CRT7.jpg" class="skeleton-image-slot"></image>
+    </skeleton-item>
+  </skeleton>
+</view>

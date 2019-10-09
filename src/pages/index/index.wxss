@@ -1,0 +1,45 @@
+.container {
+  min-height: 100vh;
+}
+
+button {
+  width: 500rpx;
+  margin: 0 auto;
+}
+
+.skeleton-text {
+  height: 60rpx;
+  width: 100rpx;
+  margin: 20rpx;
+}
+
+.skeleton-text-slot {
+  font-size: 32rpx;
+  color: red;
+  margin-top: 100rpx;
+}
+
+.skeleton-block {
+  height: 100rpx;
+  width: 200rpx;
+  margin: 20rpx;
+}
+
+.skeleton-block-slot {
+  font-size: 40rpx;
+  color: blue;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.skeleton-image {
+  height: 300rpx;
+  width: 300rpx;
+  margin: 20rpx;
+}
+
+.skeleton-image-slot {
+  height: 100rpx;
+  width: 100rpx;
+  margin: 20rpx;
+}

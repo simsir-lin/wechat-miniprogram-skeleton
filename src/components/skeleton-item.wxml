@@ -1,0 +1,9 @@
+<block wx:if="{{loading}}">
+  <view class="placeholder-class" style="background-color:{{backgroundColor}}">
+  </view>
+</block>
+<block wx:else >
+  <view class="content-class">
+    <slot></slot>
+  </view>
+</block>

@@ -1,0 +1,5 @@
+<view class="skeleton"
+  style="height:{{height}};width:{{width}};background-color:{{loading ? backgroundColor : 'rgba(255, 255, 255, 0)'}};z-index:{{zIndex}};">
+  <view class="skeleton--animation" wx:if="{{loading}}" style="z-index:{{zIndex + 1}};"></view>
+  <slot></slot>
+</view>

@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "skeleton": "/components/skeleton",
-    "skeleton-item": "/components/skeleton-item"
+    "skeleton": "wechat-miniprogram-skeleton/skeleton",
+    "skeleton-item": "wechat-miniprogram-skeleton/skeleton-item"
   }
 }

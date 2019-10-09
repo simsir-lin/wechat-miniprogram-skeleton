@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "wechat-miniprogram-skeleton": "^0.0.2"
+    "wechat-miniprogram-skeleton": "^0.0.4"
   }
 }
